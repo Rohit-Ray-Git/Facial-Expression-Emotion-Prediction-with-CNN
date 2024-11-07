@@ -3,6 +3,16 @@
 ## Overview
 This project uses Convolutional Neural Networks (CNNs) to predict moods based on facial expressions. The model is trained on a dataset of facial images labeled with corresponding mood states (e.g., Happy, Sad). The application allows users to upload images and receive mood predictions based on facial features detected in the image.
 
+## Dataset Used 📊
+The dataset used for training this model consists of facial images labeled with mood states. It is based on publicly available emotion recognition datasets, including the **[Happy and Sad Images](https://www.kaggle.com/datasets/billbasener/happy-sad-images/data)**, which contains labeled images of various facial expressions across two categories, including "Happy" 😊 and "Sad" 😞.
+
+
+### Dataset Details
+- **Categories**: The images ar labeled with two facial expressions such as "Happy" and "Sad".
+- **Image Size**: The images are resized to 256x256 pixels for model training.
+
+Feel free to download the dataset and explore more at the provided link.
+
 ## Features 🚀
 - **Mood Prediction**: Predicts whether the mood in an image is "Happy" or "Sad".
 - **CNN Model**: Utilizes Convolutional Neural Networks to perform facial emotion recognition.
