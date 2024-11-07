@@ -63,6 +63,11 @@ with open('image_classifier.h5', 'wb') as f:
 # Load the model
 model = tf.keras.models.load_model('image_classifier.h5')
 
+# Re-compile the model with the correct loss function and reduction
+model.compile(optimizer='adam',
+              loss=tf.keras.losses.BinaryCrossentropy(reduction='sum_over_batch_size'),
+              metrics=['accuracy'])
+
 # Set page layout
 st.set_page_config(page_title="Mood Prediction", layout="centered")
 
