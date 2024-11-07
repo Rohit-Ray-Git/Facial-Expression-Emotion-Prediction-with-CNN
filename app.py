@@ -52,7 +52,7 @@ def set_background(image_base64):
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Load the saved model
-model = tf.keras.models.load_model('models\image_classifier.h5')
+model = tf.keras.models.load_model('models/image_classifier.h5')
 
 # Set page layout
 st.set_page_config(page_title="Mood Prediction", layout="centered")
