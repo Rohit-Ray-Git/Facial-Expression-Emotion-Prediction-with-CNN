@@ -53,6 +53,9 @@ The model was trained on a dataset of facial images, with each image labeled as 
 
 3. **See the Results** ✅: After uploading the image, the app will display the predicted mood along with the actual label if available.
 
+
+There is a folder 'test' which contains two sub-folders 'Happy' and 'Sad'. The sub-folders contain random images belonging to the two classes. It can be used for testing the model performance in the streamlit front-end.
+
 ## Note 📌
 While the model performs well on the available dataset, there may be occasional misclassifications in certain cases, especially if the image quality is poor, the face is obscured, or there are variations in lighting or pose. Additionally, the model is currently trained to predict only two moods (Happy 😊 and Sad 😞), and expanding to more mood categories may require more diverse data and further training.
 
